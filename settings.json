@@ -1,3 +1,6 @@
 {
-  "User": "Roblox User Here"
+  "usernames": [
+    "Roblox User Here"
+  ],
+  "excludeBannedUsers": true
 }
