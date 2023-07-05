@@ -5,7 +5,7 @@ heads = {
     "Content-Type": "application/json"
 }
 
-r = open('operagxarsenal.json', 'r')
+r = open('settings.json', 'r')
 r2 = r.read()
 
 get_id = requests.post('https://users.roblox.com/v1/usernames/users', headers=heads, data=r2)
